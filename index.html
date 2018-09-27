@@ -1,10 +1,10 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>My First Website</title>
+            <title>Jayce's First Website</title>
             <style>
             body {
-                background: rgb(125, 198, 205);
+                background: rgb(20, 100, 210);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -20,18 +20,19 @@
     
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: indigo;
                 margin: 0 auto;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 display: flex;
                 padding: 10px;
-                border: 2px solid red;
+                border: 5px solid;
+                border-color: black;
                 border-radius: 25px;
             }
             nav header {
                 display: flex;
                 align-items: center;
-                color: rgb(255, 255, 255);
+                color: rgb(153,50,300);
                 flex: 1;
             }
             nav ul {
@@ -48,14 +49,14 @@
     
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: indigo;
                 display: flex;
             }
             .sidebar {
                 margin-right: 25px;
-                padding: 10px;
-                border: 10px solid red;
-                border-radius: 5px;
+                padding: 0px;
+                border: 10px solid white;
+                border-radius: 0px;
             }
             .sidebar img {
                 width: 250px;
@@ -64,6 +65,9 @@
             .content {
                 flex: 1;
                 padding: 15px;
+            }
+            .content{
+                color: black;
             }
             .interests header {
                 font-size: 1.25em;
@@ -75,7 +79,7 @@
             <div id = "All-Content">
                 <nav>
                     <header>Jayce's First Website</header>
-                    <ul>
+                    <ul id=color-links>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="porfolio.html">Portfolio</a></li>
                     
@@ -94,7 +98,7 @@
                         <section class="Interests">
                             <header>Interests</header>
                             <ul>
-                                <li>Games</li>
+                                <li>Game Design</li>
                                 <li>Karate</li>
                                 <li>Programming</li>
                             </ul>
