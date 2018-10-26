@@ -23,7 +23,7 @@
         cannon.create.onTop(450);
         cannon.create.onBottom(250);
         cannon.create.onBottom(800);
-        cannon.create.onleft(300);
+        cannon.create.onLeft(300);
         
         
         
